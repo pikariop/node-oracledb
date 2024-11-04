@@ -214,7 +214,7 @@ On macOS, the alternative ways to enable Thick mode are:
   libraries from an unzipped `Instant Client 'Basic' or 'Basic Light'
   <https://www.oracle.com/database/technologies/instant-client.html>`__
   package. For example, use
-  ``ln -s ~/Downloads/instantclient_19_16/libclntsh.dylibnode_modules/oracledb/build/Release/``.
+  ``ln -s ~/Downloads/instantclient_19_16/libclntsh.dylib node_modules/oracledb/build/Release/``.
 
   If the libraries are not found, the library search path such as set in
   ``DYLD_LIBRARY_PATH`` (note this variable does not propagate to sub-shells)
